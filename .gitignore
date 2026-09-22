@@ -1,0 +1,26 @@
+# Environments
+.venv/
+venv/
+env/
+.env
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Vector store (regenerate by running the notebook — see README)
+backend/data/vector_store/
+
+# OS
+.DS_Store
+Thumbs.db
