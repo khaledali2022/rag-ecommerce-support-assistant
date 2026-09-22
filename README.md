@@ -113,7 +113,7 @@ rag-ecommerce-assistant/
 `data/documents/` contains 10 Markdown files, each covering one support topic as a set of
 self-contained Q&A entries: `orders.md`, `shipping.md`, `returns.md`, `refunds.md`, `payment.md`,
 `account.md`, `cancellation.md`, `delivery.md`, `faqs.md`, `products.md`. This gives the assistant
-~65 retrievable, topic-tagged chunks covering the most common e-commerce support questions.
+~67 retrievable, topic-tagged chunks covering the most common e-commerce support questions.
 
 ## Setup
 
@@ -130,8 +130,8 @@ self-contained Q&A entries: `orders.md`, `shipping.md`, `returns.md`, `refunds.m
 ### 1. Clone and set up a virtual environment
 
 ```bash
-git clone https://github.com/<your-username>/rag-ecommerce-assistant.git
-cd rag-ecommerce-assistant
+git clone https://github.com/khaledali2022/rag-ecommerce-support-assistant.git
+cd rag-ecommerce-support-assistant
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
